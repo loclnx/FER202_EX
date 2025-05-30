@@ -1,8 +1,8 @@
 export const Players = [
-  { id: 1, name: 'Cristiano Ronaldo', club: 'Manchester United', img: 'assets/images/cr.jpg' },
-  { id: 2, name: 'Kante', club: 'Chelsea', img: 'assets/images/kante.jpg' },
-  { id: 3, name: 'Messi', club: 'PSG', img: 'assets/images/messi.jpg' },
-  { id: 4, name: 'Neymar', club: 'PSG', img: 'assets/images/neymar.jpg' },
-  { id: 5, name: 'Kane', club: 'Tottenham', img: 'assets/images/kane.jpg' },
-  { id: 6, name: 'Haaland', club: 'Manchester City', img: 'assets/images/haaland.jpg' }
+  { id: 1, name: 'Cristiano Ronaldo', club: 'Manchester United', img: 'assets/images/cr.jpg', info: 'Cristiano Ronaldo dos Santos Aveiro was born 5 February 1985 is a Portuguese professional footballer who plays as a forward for Premier League club Manchester United and captains the Portugal national team.' },
+  { id: 2, name: 'Kante', club: 'Chelsea', img: 'assets/images/kante.jpg', info: 'N\'Golo Kanté (born 29 March 1991) is a French professional footballer who plays as a central midfielder for Premier League club Chelsea and the France national team.' },
+  { id: 3, name: 'Messi', club: 'PSG', img: 'assets/images/messi.jpg', info: 'Lionel Messi (born 24 June 1987) is an Argentine professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and the Argentina national team.' },
+  { id: 4, name: 'Neymar', club: 'PSG', img: 'assets/images/neymar.jpg', info: 'Neymar Jr. (born 5 February 1992) is a Brazilian professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and the Brazil national team.' },
+  { id: 5, name: 'Kane', club: 'Tottenham', img: 'assets/images/kane.jpg', info: 'Harry Kane (born 28 July 1993) is an English professional footballer who plays as a striker for Premier League club Tottenham Hotspur and the England national team.' },
+  { id: 6, name: 'Haaland', club: 'Manchester City', img: 'assets/images/haaland.jpg', info: 'Erling Haaland (born 21 July 2000) is a Norwegian professional footballer who plays as a striker for Premier League club Manchester City and the Norway national team.' }
 ];

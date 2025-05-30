@@ -1,6 +1,11 @@
 import React from 'react';
+import '../styles/navigation.css';
 
 export default function Navigation() {
+
+
+
+  
   return (
     <nav>
       <ul>

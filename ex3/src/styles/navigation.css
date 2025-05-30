@@ -1,0 +1,41 @@
+nav {
+  width: 100vw;
+  background: #fff;
+  left: 0;
+  top: 0;
+  position: fixed;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  height: 48px; /* Giảm chiều cao nav */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 8px 24px;  /* Giảm padding cho gọn */
+  font-size: 22px;    /* Có thể giảm font-size nếu muốn */
+  display: inline-block;
+  transition: background 0.2s, color 0.2s;
+}
+
+nav ul li a.active {
+  background-color: #06D85F;
+  color: white;
+  border-radius: 8px;
+}
+
+.container {
+  margin-top: 60px; /* Để nội dung không bị che bởi nav cố định */
+}
